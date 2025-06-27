@@ -45,9 +45,9 @@ export const IOSOptimizations: React.FC = () => {
 
       // Smooth scrolling for anchor links
       document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-        anchor.addEventListener('click', function (e) {
+        anchor.addEventListener('click', (e) => {
           e.preventDefault()
-          const target = document.querySelector(this.getAttribute('href') as string)
+          const target = document.querySelector(anchor.getAttribute('href') as string)
           if (target) {
             target.scrollIntoView({
               behavior: 'smooth',
