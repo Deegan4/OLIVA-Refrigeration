@@ -1,0 +1,30 @@
+{
+    "name": "oliva-refrigeration-website",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint"
+    },
+    "dependencies": {
+        "@types/node": "^20.19.1",
+        "@types/react": "^18.3.23",
+        "@types/react-dom": "^18.3.7",
+        "autoprefixer": "^10.4.20",
+        "framer-motion": "^12.18.1",
+        "lucide-react": "^0.517.0",
+        "next": "^15.3.3",
+        "ogl": "^1.0.11",
+        "postcss": "^8.4.49",
+        "react": "^18.3.1",
+        "react-dom": "^18.3.1",
+        "tailwindcss": "^3.4.17",
+        "typescript": "^5.7.2"
+    },
+    "devDependencies": {
+        "eslint": "^8.57.1",
+        "eslint-config-next": "^15.3.3"
+    }
+}
